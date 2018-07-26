@@ -1,0 +1,13 @@
+<ncs-package xmlns="http://tail-f.com/ns/ncs-packages">
+  <name>nso-device-management</name>
+  <package-version>1.0</package-version>
+  <description>Library for the management - add, remove, update, etc. - of NSO devices</description>
+  <ncs-min-version>4.6</ncs-min-version>
+
+  <component>
+    <name>NSODeviceManagement</name>
+    <application>
+      <python-class-name></python-class-name>
+    </application>
+  </component>
+</ncs-package>

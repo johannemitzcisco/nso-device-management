@@ -1,0 +1,24 @@
+module nso-device-management {
+
+  namespace "http://example.com/nso-device-management";
+  prefix nso-device-management;
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+  import tailf-common {
+    prefix tailf;
+  }
+  import tailf-ncs {
+    prefix ncs;
+  }
+
+  description
+    "Bla bla...";
+
+  revision 2016-01-01 {
+    description
+      "Initial revision.";
+  }
+
+}
